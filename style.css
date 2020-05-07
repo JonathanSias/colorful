@@ -1,0 +1,78 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* IMAGES */
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+        fixed = parallax
+        scroll = normal 
+        background-attachment: fixed;
+    */
+}
+
+.color1 {
+    background-image: url();
+    min-height: 100%;
+}
+
+.color1 {
+    background-image: url();
+    min-height: 400;
+}
+
+.color1 {
+    background-image: url();
+    min-height: 400;
+}
+
+.color1 {
+    background-image: url();
+    min-height: 400;
+}
+
+.color5 {
+    background-image: url();
+    min-height: 100%;
+}
+
+.colors {
+    /*  */
+}
+
+.colors-pages {
+    width: 50%;
+}
+
+.colors-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.colors-pages div > p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* SECTIONS AND TEXT */
