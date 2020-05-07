@@ -57,22 +57,22 @@ html {
 }
 
 .colors-pages {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .colors-pages div {
-    height: 100vh;
+    /* height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: white; */
 }
 
 .colors-pages div > p {
-    width: 80%;
+    /* width: 80%;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 30px; */
 }
 
 /* SECTIONS AND TEXT */
