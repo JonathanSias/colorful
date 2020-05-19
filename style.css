@@ -10,69 +10,151 @@ html {
 }
 
 /* IMAGES */
-.color1,
-.color2,
-.color3,
-.color4,
-.color5 {
+.color1 {
     position: relative;
-    opacity: 0.7;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /*
         fixed = parallax
         scroll = normal 
-        background-attachment: fixed;
-    */
-}
-
-.color1 {
-    background-image: url();
+     */
+    background-attachment: fixed;
+    background-image: url("_images/hero.jpg");
     min-height: 100%;
 }
 
-.color1 {
-    background-image: url();
-    min-height: 400;
+/* TEXT */
+.ptitle {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
 }
 
-.color1 {
-    background-image: url();
-    min-height: 400;
+.ptitle .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
 }
 
-.color1 {
-    background-image: url();
-    min-height: 400;
+/* GRID ITEMS */
+.grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.color5 {
-    background-image: url();
-    min-height: 100%;
+.grid-item {
+    padding: 0;
+    margin: 0;
 }
 
-.colors {
+.item-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-content {
+    padding: 10%;
+    text-align: justify;
+}
+
+.content-1 {
+    background-color: #979dac;
+    color: white;
+}
+
+.content-2 {
+    background-color: #fdffb6;
+    color: #0077b6;
+}
+
+.content-3 {
+    background-color: #b2ff9e;
+    color: black;
+}
+
+.item-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+/*
+.item-4 {
+    background-color: black;
+
+}
+
+.item-4-1 {
+    background-color: yellow;
+}
+
+.item-4-2 {
+    background-color: blue;
+}
+
+.item-4-3 {
+    background-color: chartreuse;
+} */
+
+.grid-color {
     /*  */
 }
 
-.colors-pages {
-    /* width: 50%; */
+.color-1 {
+    /* background-color: purple; */
+    background-image: url("_images/sharon-mccutcheon-F-uHUndbXhY-unsplash.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+        fixed = parallax
+        scroll = normal 
+     */
+    background-attachment: scroll;
+    /* min-width: 100%; */
 }
 
-.colors-pages div {
-    /* height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white; */
+.color-2 {
+    /* background-color: purple; */
+    background-image: url("_images/davisco-rhUU1pemhQ0-unsplash.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+        fixed = parallax
+        scroll = normal 
+     */
+    background-attachment: scroll;
+    /* min-width: 100%; */
 }
 
-.colors-pages div > p {
-    /* width: 80%;
-    font-size: 18px;
-    line-height: 30px; */
-}
-
-/* SECTIONS AND TEXT */
+.color-3 {
+    /* background-color: purple; */
+    background-image: url("_images/thought-catalog-9aOswReDKPo-unsplash.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+        fixed = parallax
+        scroll = normal 
+     */
+    background-attachment: scroll;
+    /* min-width: 100%; */
